@@ -7,7 +7,7 @@ A lightweight remote administration tool written in Rust. Uses a **bind shell** 
 ```
 ┌─────────────────┐          TCP         ┌──────────────────────┐
 │  CLIENT.EXE     │ ◄──────────────────► │  SERVER.EXE          │
-│  (RemoteConsol) │    connect/send      │  (Target)            │
+│  (Remote)       │    connect/send      │  (Target)            │
 │                 │    receive/display   │                      │
 │  You type:      │                      │  - Listens on port   │
 │    whoami       │ ──────command──────► │  - Spawns cmd.exe    │
