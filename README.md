@@ -1,4 +1,4 @@
-# Reverse Shell (Bind Shell)
+# Bind Shell
 
 A lightweight remote administration tool written in Rust. Uses a **bind shell** architecture where the server listens for incoming connections and the client connects to issue commands — similar to SSH.
 
